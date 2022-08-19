@@ -20,7 +20,7 @@ programa
 		const inteiro TAM_VETOR = 10
 		inteiro storage[TAM_VETOR]
 		real somaVetor = 0.0
-		
+		 
 		// Armazena os elementos aleatórios no vetor storage
 		para (inteiro i = 0; i <= TAM_VETOR - 1; i++) {
 			storage[i] = util.sorteia(1, 100)
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 488; 
+ * @POSICAO-CURSOR = 492; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
