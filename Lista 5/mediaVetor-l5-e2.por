@@ -17,20 +17,20 @@ programa
 	inclua biblioteca Util --> util
 	funcao inicio()
 	{	
-		const inteiro tamVetor = 10
-		inteiro storage[tamVetor]
+		const inteiro TAM_VETOR = 10
+		inteiro storage[TAM_VETOR]
 		real somaVetor = 0.0
 		
 		// Armazena os elementos aleatórios no vetor storage
-		para (inteiro i = 0; i <= tamVetor - 1; i++) {
+		para (inteiro i = 0; i <= TAM_VETOR - 1; i++) {
 			storage[i] = util.sorteia(1, 100)
 		}
 
-		para(inteiro j = 0; j <= tamVetor - 1; j++) {
+		para(inteiro j = 0; j <= TAM_VETOR - 1; j++) {
 			escreva(storage[j], " | ")
 			somaVetor += storage[j]
 		}
-		escreva("\nA média do vetor é: ", somaVetor / tamVetor)
+		escreva("\nA média do vetor é: ", somaVetor / TAM_VETOR)
 	}	
 }
 /* $$$ Portugol Studio $$$ 
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 335; 
+ * @POSICAO-CURSOR = 488; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
